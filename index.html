@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NovaGlass — Futuristic Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="page-home">
+    <div class="bg-layer bg-gradient"></div>
+    <div class="bg-layer bg-noise"></div>
+    <div class="bg-layer bg-blobs" aria-hidden="true">
+      <span class="blob blob-1"></span>
+      <span class="blob blob-2"></span>
+      <span class="blob blob-3"></span>
+    </div>
+
+    <div class="site-shell" data-parallax-root>
+      <header class="glass navbar" data-animate="slide-down">
+        <div class="brand">NovaGlass</div>
+        <nav>
+          <a href="index.html" aria-current="page">Home</a>
+          <a href="about.html">About</a>
+          <a href="projects.html">Projects</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <a class="glass-btn nav-cta" href="contact.html">Let’s Talk</a>
+      </header>
+
+      <main>
+        <section class="hero section-container" data-animate="fade-up">
+          <p class="eyebrow">FUTURISTIC CREATIVE PORTFOLIO</p>
+          <h1>
+            Building immersive interfaces with
+            <span class="gradient-text">glass + motion</span>
+          </h1>
+          <p class="hero-copy">
+            Senior UI/UX and motion-focused systems that blend depth,
+            transparency, and cinematic interaction for modern digital products.
+          </p>
+          <div class="hero-actions" data-stagger-group>
+            <button class="glass-btn" data-stagger>Start a Project</button>
+            <button class="glass-btn ghost" data-stagger>View Reel</button>
+          </div>
+        </section>
+
+        <section class="floating-grid section-container" data-stagger-group>
+          <article class="glass glass-card tilt-card" data-stagger>
+            <h3>Layered Depth</h3>
+            <p>Foreground, midground, and ambient glows designed for parallax.</p>
+          </article>
+          <article class="glass glass-card tilt-card" data-stagger>
+            <h3>Motion-Ready</h3>
+            <p>Cards and UI groups built for stagger, fade, slide, and scale.</p>
+          </article>
+          <article class="glass glass-card tilt-card" data-stagger>
+            <h3>Component-Driven</h3>
+            <p>Reusable design blocks mapped to Auto Layout-friendly structure.</p>
+          </article>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
