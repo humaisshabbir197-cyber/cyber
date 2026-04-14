@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NovaGlass — Projects</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="page-projects">
+    <div class="bg-layer bg-gradient"></div>
+    <div class="bg-layer bg-noise"></div>
+    <div class="bg-layer bg-blobs" aria-hidden="true">
+      <span class="blob blob-1"></span>
+      <span class="blob blob-2"></span>
+      <span class="blob blob-3"></span>
+    </div>
+
+    <div class="site-shell" data-parallax-root>
+      <header class="glass navbar" data-animate="slide-down">
+        <div class="brand">NovaGlass</div>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="projects.html" aria-current="page">Projects</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <a class="glass-btn nav-cta" href="contact.html">Let’s Talk</a>
+      </header>
+
+      <main>
+        <section class="section-container" data-animate="fade-up">
+          <h1>Selected Projects</h1>
+          <p class="intro-text">Hover cards for tilt, glow and media zoom interactions.</p>
+          <div class="project-grid" data-stagger-group>
+            <article class="glass project-card tilt-card" data-stagger>
+              <div class="media media-a"></div>
+              <h3>Neural Dashboard</h3>
+              <p>Analytics command center with animated data overlays.</p>
+            </article>
+            <article class="glass project-card tilt-card" data-stagger>
+              <div class="media media-b"></div>
+              <h3>Orbital SaaS</h3>
+              <p>Futuristic onboarding and growth flow for B2B platform.</p>
+            </article>
+            <article class="glass project-card tilt-card" data-stagger>
+              <div class="media media-c"></div>
+              <h3>Pulse Commerce</h3>
+              <p>Luxury storefront with cinematic transitions and microcopy.</p>
+            </article>
+            <article class="glass project-card tilt-card" data-stagger>
+              <div class="media media-d"></div>
+              <h3>AI Workspace</h3>
+              <p>Collaborative UI with translucent productivity surfaces.</p>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

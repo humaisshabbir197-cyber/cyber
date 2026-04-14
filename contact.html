@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NovaGlass — Contact</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="page-contact">
+    <div class="bg-layer bg-gradient"></div>
+    <div class="bg-layer bg-noise"></div>
+    <div class="bg-layer bg-blobs" aria-hidden="true">
+      <span class="blob blob-1"></span>
+      <span class="blob blob-2"></span>
+      <span class="blob blob-3"></span>
+    </div>
+
+    <div class="site-shell" data-parallax-root>
+      <header class="glass navbar" data-animate="slide-down">
+        <div class="brand">NovaGlass</div>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="projects.html">Projects</a>
+          <a href="contact.html" aria-current="page">Contact</a>
+        </nav>
+        <a class="glass-btn nav-cta" href="contact.html">Let’s Talk</a>
+      </header>
+
+      <main>
+        <section class="contact-wrapper section-container" data-animate="fade-up">
+          <form class="glass contact-form" data-stagger-group>
+            <h1 data-stagger>Let’s build something iconic.</h1>
+            <label data-stagger>
+              Name
+              <input class="glass-input" type="text" placeholder="Your name" />
+            </label>
+            <label data-stagger>
+              Email
+              <input class="glass-input" type="email" placeholder="name@email.com" />
+            </label>
+            <label data-stagger>
+              Project Brief
+              <textarea class="glass-input" rows="4" placeholder="Tell me about your idea..."></textarea>
+            </label>
+            <button class="glass-btn submit" data-stagger type="submit">Send Message</button>
+          </form>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
